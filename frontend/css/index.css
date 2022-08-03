@@ -65,6 +65,18 @@ h2{
      display: flex;
      justify-content: center;
 }
+.form{
+        display: flex;
+        flex-direction: column;
+        border: solid black;
+        border-radius: 20px;
+        margin: 5%;
+        width: 90%;
+}
+.button{
+      display: flex;
+      justify-content: space-around;
+}
 footer{
       display: flex;
       width: 95%;
