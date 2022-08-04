@@ -14,9 +14,21 @@
       <main>
                <form class="form">
                             <h2>formulaire d'entré</h2>  
+                            <div class="form1">
+                              <label class="form2" for="prenom">Prénom :</label>
+                              <input class="form2" type="texte" name="prenom" id="prenom"/>
+                            </div>
+                            <div class="form1">
+                              <label class="form2" for="nom">Nom :</label>
+                              <input type="texte" name="Nom" id="nom" class="form2"/>
+                            </div>
+                            <div class="form1"> 
+                              <label class="form2" for="email">Mail :</label>
+                              <input class="form2" type="email" name="mail" id="mail"/>
+                            </div>
                             <div class="button">
-                              <button>envoyer</button>
-                              <button>ignorer</button>
+                              <button id="envoyer">envoyer</button>
+                              <button id="ignorer">ignorer</button>
                             </div>
                </form>
        </main>
@@ -33,4 +45,5 @@
                 </ul>          
       </footer>
 </body>
+<script src="js/connexion.js" defer></script>
 </html>
