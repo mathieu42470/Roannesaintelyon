@@ -86,9 +86,13 @@ h2{
       width: 100%;
 }
 .button{
-      margin-top: 2%;
+      margin: 2% 0 2% 0;
       display: flex;
       justify-content: space-around;
+      
+}
+.pcontact{
+      margin-left: 1%;
 }
 footer{
       display: flex;

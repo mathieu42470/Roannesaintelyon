@@ -13,23 +13,38 @@
                  </header>
       <main>
                <form class="form">
-                            <h2>formulaire d'entré</h2>  
+                            <h2>formulaire d'entré sur le site</h2>
+                            <p class="pcontact">Les données transmisent dans ce formulaire ne sont stockées dans aucune base de données. </p>
                             <div class="form1">
                               <label class="form2" for="prenom">Prénom :</label>
-                              <input class="form2" type="texte" name="prenom" id="prenom"/>
+                              <input class="form2" type="texte" name="prenom" id="prenom2"/>
                             </div>
                             <div class="form1">
                               <label class="form2" for="nom">Nom :</label>
-                              <input type="texte" name="Nom" id="nom" class="form2"/>
-                            </div>
-                            <div class="form1"> 
-                              <label class="form2" for="email">Mail :</label>
-                              <input class="form2" type="email" name="mail" id="mail"/>
+                              <input type="texte" name="Nom" class="form2" id="nom2"/>
                             </div>
                             <div class="button">
-                              <button id="envoyer">envoyer</button>
-                              <button id="ignorer">ignorer</button>
+                              <button id="ignorer">entré</button>
                             </div>
+               </form>
+               <form class="form">
+                 <h2>Formulaire Contact</h2>
+                 <p class="pcontact">Ce formulaire est un formulaire de contact, si vous acceptez de recevoir des nouvelles de ce projet vous pouvez envoyer votre adresse mail dans une base de données. Les données ne seront gardés que le temps du projet.</p>
+                 <div class="form1">
+                  <label class="form2" for="prenom">Prénom :</label>
+                  <input name="prenom" id="prenom" type="texte" class="form2"/>
+                </div>
+                <div class="form1">
+                  <label class="form2" for="nom">Nom :</label>
+                  <input name="nom" id="nom" class="form2" type="texte"/>
+                </div>
+                <div class="form1"> 
+                  <label class="form2" for="email">Mail :</label>
+                  <input name="mail" id="email" type="email" class="form2"/>
+                </div>
+                <div class="button">
+                  <button id="envoyer">envoyer</button>
+                </div>
                </form>
        </main>
        <footer>
