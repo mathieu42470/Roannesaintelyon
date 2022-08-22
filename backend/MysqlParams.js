@@ -1,4 +1,3 @@
-const { throws } = require('assert');
 const mySQL = require('mysql');
 
 require('dotenv').config();

@@ -10,7 +10,7 @@ const users = require('./route/user')
 
 app.use(bodyParser.json());
 const corsOption ={
-               origin: '*',
+                origin: '*',
 };
 
 app.use(cors(corsOption));
