@@ -91,6 +91,10 @@ h2{
       justify-content: space-around;
       
 }
+p{
+      margin: 0 2% 1% 2%;
+      text-align: justify;
+}
 .pcontact{
       margin-left: 1%;
 }

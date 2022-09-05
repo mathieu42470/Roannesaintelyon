@@ -8,7 +8,7 @@ ignorer.addEventListener ("click", (e) =>{
                }
                console.log(data)
                sessionStorage.setItem('contact', JSON.stringify(data))
-               document.location.href = "index.html";
+               document.location.href = "accueil.html";
 })
 let envoyer = document.getElementById("envoyer");
 envoyer.addEventListener ("click", (e)=>{
