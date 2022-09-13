@@ -48,6 +48,10 @@ header{
       align-items: center;
       font-size: 50px;
 }
+a{
+      text-decoration: none;
+      color: black;
+}
 .lienaccueil{
      display: flex;
      align-items: center;
@@ -109,6 +113,5 @@ footer{
 }
 .footer{
       list-style: none;
-      text-decoration: none;
       box-shadow: none;
 }
