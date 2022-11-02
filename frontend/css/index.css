@@ -31,8 +31,8 @@ body{
 }
 header{
       display: flex;
-      width: 95%;
-      margin-left: 2.5%;
+      width: 90%;
+      margin: 5%;
       background-color: rgb(234, 112, 242);
       border-radius: 20px;
       border: solid black;
@@ -42,6 +42,11 @@ header{
 .heade{
       display: flex;
       flex-direction: row;
+}
+.vélo{
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
 }
 .titre{
       display: flex;
@@ -98,15 +103,16 @@ h2{
 p{
       margin: 0 2% 1% 2%;
       text-align: justify;
+      width: 90%;
 }
 .pcontact{
       margin-left: 1%;
 }
 footer{
       display: flex;
-      width: 95%;
+      width: 90%;
       justify-content: space-around;
-      margin-left: 2.5%;
+      margin: 5%;
       background-color: rgb(234, 112, 242);
       border-radius: 20px;
       border: solid black;
