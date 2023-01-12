@@ -53,10 +53,6 @@ header{
       align-items: center;
       font-size: 50px;
 }
-a{
-      text-decoration: none;
-      color: black;
-}
 .lienaccueil{
      display: flex;
      align-items: center;
@@ -98,6 +94,19 @@ h2{
       margin: 2% 0 2% 0;
       display: flex;
       justify-content: space-around;
+      
+}
+.parcours{
+      display: flex;
+      width: 90%;
+      
+}
+.img1{
+      display: flex;
+      margin-top: 2%;
+      margin-left: 14%;
+      height: 25rem;
+      width: 75%;
       
 }
 p{
